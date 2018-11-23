@@ -13,9 +13,9 @@ import (
 
 const (
 	defTopic    = "channels/1/messages"
-	defBroker   = "ssl://nginx-host-name:8883"
+	defBroker   = "ssl://[YOUR_NGINX_HOST]:8883"
 	defUser     = "1"
-	defPassword = "thing-token"
+	defPassword = "YOUR_THING_TOKEN"
 
 	envTopic    = "TOPIC"
 	envBroker   = "BROKER"

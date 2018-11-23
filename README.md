@@ -24,9 +24,9 @@ The service is configured using the environment variables presented in the
 following table. Note that any unset variables will be replaced with their
 default values.
 
-| Variable | Description                            | Default                    |
-|----------|----------------------------------------|----------------------------|
-| TOPIC    | channels/mainflux-channel-id/messages  | channels/1/messages        |
-| BROKER   | mainflux-nginx-host:mainflux-mqtt-port | ssl://nginx-host-name:8883 |
-| USER     | thing id                               | 1                          |
-| PASSWORD | thing token                            | thing-token                |
+| Variable | Description                            | Default                      |
+|----------|----------------------------------------|------------------------------|
+| TOPIC    | channels/mainflux-channel-id/messages  | channels/1/messages          |
+| BROKER   | mainflux-nginx-host:mainflux-mqtt-port | ssl://[YOUR_NGINX_HOST]:8883 |
+| USER     | thing id                               | 1                            |
+| PASSWORD | thing token                            | [YOUR_THING_TOKEN]           |
