@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  mqtt_client:
+    build: ./
+    environment:
+      - TOPIC=channels/1/messages
+      - BROKER=ssl://nginx-host-name:8883
+      - USER=1
+      - PASSWORD=thing-token
