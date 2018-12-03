@@ -8,6 +8,7 @@ and will publish some example message to given topic.
 ## Getting Started
 
 ```bash
+# you need to modify the environments in docker-compose.yaml
 $ docker-compose up
 ```
 
@@ -15,8 +16,13 @@ $ docker-compose up
 
 ```bash
 # run golang main.go locally. (go1.11 required)
+export BROKER=ssl://[YOUR_NGINX_HOST]:8883
+export PASSWORD=[YOUR_THING_TOKEN]
 $ make run
 ```
+
+## Dev site information
+Please see the wiki page for the secret information
 
 ## Configuration
 
