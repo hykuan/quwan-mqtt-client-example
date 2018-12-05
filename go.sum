@@ -1,4 +1,8 @@
+github.com/cisco/senml v0.0.0-20181031221301-910a55054e16 h1:gVMpF6unIWOG8JgCt3XhlYdT3lRFDcMMVJdMesU+TQY=
+github.com/cisco/senml v0.0.0-20181031221301-910a55054e16/go.mod h1:pLFASTQEf1nGfvoMwxmOjLeImwMKQMx18w38UcI9ZfI=
 github.com/eclipse/paho.mqtt.golang v1.1.1 h1:iPJYXJLaViCshRTW/PSqImSS6HJ2Rf671WR0bXZ2GIU=
 github.com/eclipse/paho.mqtt.golang v1.1.1/go.mod h1:H9keYFcgq3Qr5OUJm/JZI/i6U7joQ8SYLhZwfeOo6Ts=
+github.com/ugorji/go/codec v0.0.0-20181127175209-856da096dbdf h1:BLcwkDfQ8QPXNXBApZUATvuigovcYPXkHzez80QFGNg=
+github.com/ugorji/go/codec v0.0.0-20181127175209-856da096dbdf/go.mod h1:VFNgLljTbGfSG7qAOspJ7OScBnGdDN/yBr0sguwnwf0=
 golang.org/x/net v0.0.0-20181114220301-adae6a3d119a h1:gOpx8G595UYyvj8UK4+OFyY4rx037g3fmfhe5SasG3U=
 golang.org/x/net v0.0.0-20181114220301-adae6a3d119a/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
